@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#17111f">
+<title>วังหลัง — ชะตารักเหนือบัลลังก์</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header><div class="brand">วังหลัง <span>ชะตารักเหนือบัลลังก์</span></div><div class="header-actions"><button id="musicBtn">♫ เปิดเสียง</button><button id="restartBtn">เริ่มใหม่</button></div></header>
+<main>
+<section class="status"><div class="progress-wrap"><div class="progress-label"><span id="chapterLabel">บทที่ 1 / 20</span><span id="progressPercent">5%</span></div><div class="progress"><div id="progressBar"></div></div></div><div class="stats" id="stats"></div></section>
+<section class="story-layout">
+<div class="visual">
+<img id="sceneImage" src="assets/scenes/ch01_gate.svg" alt="ภาพฉากหลัง">
+<div class="scene-shade"></div>
+<div class="character-wrap"><img id="characterImage" src="assets/characters/heroine.svg" alt="ตัวละคร"></div>
+<div class="scene-caption"><span id="placeLabel">ประตูวัง · ยามสาม</span><h1 id="chapterTitle">คืนที่ไร้ชื่อ</h1></div>
+</div>
+<article class="dialogue">
+<div class="chapter-kicker" id="chapterKicker">บทที่ 01 · ปฐมบท</div>
+<p id="introText"></p>
+<div class="divider"><span>✦</span></div>
+<h2 id="questionText"></h2>
+<div id="choices" class="choices"></div>
+<div id="feedback" class="feedback" aria-live="polite"></div>
+<div class="dialogue-footer"><span id="pathNote">ทุกการตัดสินใจมีผลต่อเส้นทางและตอนจบ</span><button id="continueBtn" class="continue" hidden>ไปต่อ →</button></div>
+</article>
+</section>
+<section class="log-panel"><h3>บันทึกชะตา</h3><p id="logText">ทุกคำตอบจะถูกบันทึกเป็นร่องรอยในวังแห่งนี้</p><div id="clues" class="clues"></div></section>
+</main>
+<footer>เกมเนื้อเรื่องแตกแขนง 20 บท · 6 จุดจบ · บันทึกอัตโนมัติในอุปกรณ์นี้</footer>
+</div>
+<script src="game.js"></script>
+</body></html>
