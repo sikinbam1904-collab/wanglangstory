@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="1152" viewBox="0 0 768 1152">
+<defs><linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d5148"/><stop offset="1" stop-color="#171b2b"/></linearGradient></defs>
+<g opacity=".96">
+<ellipse cx="384" cy="1100" rx="210" ry="24" fill="#000" opacity=".22"/>
+<path d="M210 1090 Q220 760 270 600 L300 500 H468 L510 600 Q560 760 558 1090Z" fill="url(#robe)" stroke="#c8a76b" stroke-width="7"/>
+<path d="M300 500 L384 620 L468 500" fill="none" stroke="#e6d1a0" stroke-width="8"/>
+<path d="M320 510 Q280 400 300 290 Q310 160 384 150 Q470 160 478 290 Q495 410 448 510Z" fill="#f0c9ae" stroke="#352b32" stroke-width="7"/>
+<path d="M285 310 Q260 100 380 85 Q520 95 490 330 L470 255 Q420 205 365 220 Q330 260 285 310Z" fill="#191722"/>
+<path d="M300 120 Q385 40 475 120 L455 155 Q390 125 315 160Z" fill="#c6a052" stroke="#e9d59a" stroke-width="6"/>
+<path d="M340 325 Q355 340 370 325 M398 325 Q413 340 428 325" fill="none" stroke="#34212b" stroke-width="8" stroke-linecap="round"/>
+<path d="M365 385 Q385 400 405 385" fill="none" stroke="#8e4548" stroke-width="6" stroke-linecap="round"/>
+<path d="M270 610 Q220 700 180 780 M500 610 Q550 700 590 780" fill="none" stroke="#f0c9ae" stroke-width="48" stroke-linecap="round"/>
+<path d="M290 570 L384 650 L478 570" fill="none" stroke="#c8a76b" stroke-width="6"/>
+</g>
+<text x="384" y="40" text-anchor="middle" font-family="serif" font-size="25" fill="#9c8252">ขันทีเฒ่าจาง · REPLACE WITH AI CHARACTER</text>
+</svg>
